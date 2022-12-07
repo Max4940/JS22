@@ -16,4 +16,17 @@ git config --global user.email 'почта'
 
 git commit -m "first commit" - создание контрольной копии
 
-.gitignore		
+.gitignore	
+
+Ветки
+git branch - просмотр веток	
+
+git branch test - создать новую ветку
+
+git branch -D test - удалить ветку
+
+git branch readme
+
+git checkout readme
+
+git checkout -b new
