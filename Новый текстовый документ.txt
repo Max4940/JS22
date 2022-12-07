@@ -1,0 +1,19 @@
+git --version
+git --help
+
+git init (команда применяется только один раз) - для создания репозитория
+
+git status - проверка состояния репозитори
+
+git add -A
+		--all - все файлы и папкиб которые находятся внутри и их вложенные элементы
+		index.html
+		. - добавит все файлы из текущей директории
+
+
+git config --global user.name 'имя пользователя'
+git config --global user.email 'почта'
+
+git commit -m "first commit" - создание контрольной копии
+
+.gitignore		
