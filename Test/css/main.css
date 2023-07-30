@@ -1,0 +1,459 @@
+@import url('https://fonts.cdnfonts.com/css/bloc');
+
+body{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1440px;
+	/* background-color: #17d705; */
+}
+.top{
+	margin-top: 55px;
+	margin-bottom: 130px;
+	max-width: 1440px;
+}
+.title{
+	font-family: Library Contacts Blo;
+	text-transform: uppercase;
+	font-family: Baron Neue;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 44px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #333333;
+}
+.top__left{
+}
+.list{
+	display: inline-block;
+	display: flex;
+}
+.rigth{
+	background-color: #F4F5F5;
+}
+.item{
+	font-family: Library Contacts Blo;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #303030;
+}
+.item2{
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #777777;
+	margin-bottom: 20px;
+}
+.text{
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 15;
+	-webkit-box-orient: vertical;
+}
+.top__rigth{
+	justify-content: flex-end;
+	margin: none;
+	padding: 0;
+}
+.image{
+	padding: 0;
+}
+.img1{
+	width: 25vw;
+}
+.img2{
+	width: 9vw;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+
+.map{
+	margin-bottom: 120px;
+}
+.map__title{
+	font-family: Baron Neue;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0px;
+	text-align: left;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333333;
+	margin-bottom: 40px;
+	width: 100%;
+}
+.map__item{
+	font-family: Lato;
+	font-size: 9px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: left;
+	border: solid 1px #C79791;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px / 100px;
+	margin-bottom: 20px;
+	padding: -2px 5px;
+}
+.units{
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.value{
+	font-family: Lato;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #7A1B1B;
+	margin-left: 5px;
+}
+.map2 {
+	height: 50vh;
+	width: 30vw;
+
+}
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+.balloon__title {
+	font-size: 16px;
+	font-weight: 700;
+}
+.balloon__type {
+	margin-bottom: 5px;
+	color: #777777;
+}
+
+
+.footer{
+	padding-bottom: 20px;
+}
+.footer__top{
+	align-items: center;
+}
+.footer__top__rigth{
+	flex-direction: column;
+}
+
+.footer__title{
+	font-family: Baron Neue;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #08131F;
+	text-transform: uppercase;
+	}
+.footer__subtitle{
+	font-family: Baron Neue;
+	font-size: 22px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #08131F;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.arrow{
+	width: 10px;
+	height: 20px;
+}
+.arrow:first-child{
+	width: 10px;
+	height: 20px;
+	margin-right: 20px;
+}
+.footer__bottom{
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer__item{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex: 1;
+	flex-basis: 24%;
+	align-items: stretch;
+	align-items: baseline;
+	margin-right: 65px;
+	padding: 0 20px;
+}
+.footer__item:last-child{
+	margin-right: 0px;
+}
+.footer__img{
+	width: 85px;
+	height: 65px;
+}
+.footer__img2{
+	width: 110px;
+	height: 65px;
+}
+.footer__text{
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+.footer__btn{
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #7A1B1B;
+}
+
+
+div.scroll-container {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	}
+	
+	div.scroll-container img {
+	padding: 10px;
+	}
+
+
+@media(max-width: 1597px){
+	.top{
+		margin-top: 55px;
+		margin-bottom: 130px;
+		max-width: 1440px;
+	}
+	.title{
+		font-size: 30px;
+		font-weight: 600;
+	}
+
+	.item{
+		font-size: 24px;
+	}
+	.item2{
+		font-size: 12px;
+		}
+	.text{
+		font-size: 16px;
+	}
+	.img1{
+		width: 24vw;
+
+	}
+	.img2{
+		width: 8vw;
+	}
+
+	.map{
+		margin-bottom: 120px;
+	}
+	.map__title{
+		font-size: 36px;
+	}
+	.units{
+		font-size: 16px;
+	}
+	.value{
+		font-size: 11px;
+	}
+	.map2 {
+		height: 100%;
+		height: 500px;
+	}
+}
+
+
+@media(max-width: 950px){
+	.top22{
+		flex-direction: column;
+	}
+	.item{
+		font-size: 24px;
+	}
+	.item2{
+		font-size: 12px;
+		}
+	.text{
+		font-size: 16px;
+	}
+	.img1{
+		width: 30vw;
+
+	}
+	.img2{
+		width: 8vw;
+	}
+
+	.map{
+		margin-bottom: 120px;
+	}
+	.map__title{
+		font-size: 36px;
+	}
+	.units{
+		font-size: 16px;
+	}
+	.value{
+		font-size: 11px;
+	}
+	.map2 {
+		height: 100%;
+		height: 500px;
+	}
+
+}
+
+
+@media(max-width: 980px){
+	.top{
+		margin-top: 55px;
+		margin-bottom: 130px;
+		max-width: 1440px;
+	}
+	.title{
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.item{
+		font-size: 24px;
+	}
+	.item2{
+		font-size: 12px;
+		}
+	.text{
+		font-size: 16px;
+	}
+	.img1{
+		width: 30vw;
+	}
+	.img2{
+		width: 8vw;
+	}
+	.map{
+		margin-bottom: 120px;
+	}
+	.map__title{
+		font-size: 36px;
+	}
+	.units{
+		font-size: 16px;
+	}
+	.value{
+		font-size: 11px;
+	}
+	.map2 {
+		height: 100%;
+		height: 500px;
+	}
+
+}
+
+
+@media(max-width: 995px){
+	.units{
+		font-size: 14px;
+	}
+	.value{
+		font-size: 9px;
+	}
+}
+
+
+@media(max-width: 950px){
+	.top{
+		margin-bottom: -180px;
+	}
+	.top22{
+		display: flex;
+		flex-direction: column;
+	}
+	.map__title{
+		font-size: 28px;
+	}
+
+	.units{
+		font-size: 10px;
+	}
+	.value{
+		font-size: 9px;
+	}
+	.map__item{
+		width: 80%;
+		margin-right: 10px;
+		border-radius: 100px / 100px;
+	}
+}
+
+
+@media(max-width: 770px){
+	.list{
+		margin-top: 30px;
+	}
+	.text{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.img1{
+		width: 85vw;
+
+	}
+	.img2{
+		width: 30vw;
+		margin-top: 20px;
+		margin-right: 20px;
+	} 
+	.map{
+		margin-top: 240px;
+	}
+	.vvv{
+		display: flex;
+		flex-direction: row;
+		flex-basis: 40%;
+		flex-wrap: wrap;
+	}
+	.map__item{
+		width: 40%;
+		margin-right: 10px;
+		border-radius: 100px / 100px;
+	}
+	.cvb{
+		flex-direction: column;
+	}
+	.map2 {
+		height: 100%;
+		width: 100%;
+		height: 500px;
+	}
+}
